@@ -1,0 +1,23 @@
+
+echo -n "A00833375" | iconv -t utf16le | openssl md4
+
+network={
+  ssid="Tec"
+  priority=1
+  proto=RSN
+  key_mgmt=WPA-EAP
+  pairwise=CCMP
+  auth_alg=OPEN
+  eap=PEAP
+  identity="A00833375"
+  password=hash:5dee743b2a66d118ca54b1c878d2942d
+  phase1="peaplabel=0"
+  phase2="auth=MSCHAPV2"
+}
+
+network={
+  ssid="Standford Pines"
+  scan_ssid=1
+  psk=6ebb1ea9dd47cb8d23c23b847e73ed23d4ed43efb9942cd6b40112cc4d1562ab
+}
+
