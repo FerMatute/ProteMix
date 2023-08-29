@@ -9,27 +9,29 @@ Over the years the importance of maintaining a healthy and active lifestyle has 
 ## Materiales
 - 1 Raspberrypi 
 
-- 2 Bombas de agua
+- 2 Water Pumps
 
-- 3 Servomotores
+- 3 Servomotors
 
-- 1 Sensor de ultrasónico
+- 1 ultrasonic sensor 
 
 - 1 Display 5’’ Raspberry
 
 - 1 Protoboard
 
-- Arduino	2 Resistencias de 1kΩ
+- Arduino
 
-- 1 Manguera de ¼’’
+- 2 1kΩ resistors
 
-- Tablones de MDF
+- 1 hose
 
-- 4 Bisagras
+- MDF
+
+- 4 Hinges
 
 - Cable
 
-- Mouse alámbrico
+- Wireless mouse
 
 ## Functionality
 The interface will be shown on the 5'' Display, where the user will select the desired protein, then the system will start its operation through the Raspberrypi which is responsible for receiving the information provided and will start the water pump to run the liquid up the hose, and receive the signal from the ultrasonic sensor to start filling the cup, then the sensor will detect when the cup is full and sends the signal to turn off the pump; after that, the servomotors will be activated to open the gates of the selected powder container and drop the powder into the tumbler. Finally, the user will be notified that his drink is ready.
