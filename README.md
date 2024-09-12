@@ -6,7 +6,7 @@ Intelligent kiosk system that consists of a screen, which will display the inter
 ## Problem
 Over the years the importance of maintaining a healthy and active lifestyle has become a culture for the community, but in situations where people are away from home or in a hurry to get to their destination, it does not allow them to eat the right way. For example, you may be heading to the gym, work or school and not have enough time to prepare a breakfast, or at least a protein shake, which may be difficult to acquire due to its limited availability in a few places. That is why, students of Robotics and Digital Systems Engineering at Tecnológico de Monterrey Campus Querétaro decided that a solution is required that allows people to place their orders for personalized drinks easily and accurately, thus optimizing their experience and satisfaction to complement a healthy diet.
 
-## Materiales
+## Materials
 - 1 Raspberrypi 
 
 - 2 Water Pumps
